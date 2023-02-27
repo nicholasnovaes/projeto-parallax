@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: white;
+}
+
+
+section{
+    text-align: center;
+    padding: 2em;
+}
+
+section div h2, section div p{
+    font-family: sans-serif;
+}
+
+.section-one, .section-three{
+    background: white;
+    color: #a0a0a0;
+}
+
+.section-one h2, .section-three h2{
+    font-weight: border;
+}
+
+.section-two{
+    background-color: #282E34;
+    color: white;
+}
+
+.bk-config{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.bk1{
+    background-image: url(../images/01.jpg);
+    min-height: 100%;
+}
+
+.bk2{
+    background-image: url(../images/02.jpg);
+    min-height: 100%;
+}
+
+.bk3{
+    background-image: url(../images/03.jpg);
+    min-height: 100%;
+}
+
+.bk4{
+    background-image: url(../images/04.jpg);
+    min-height: 100%;
+}
+
+.text{
+    position: absolute;
+    width: 100%;
+    text-transform: uppercase;
+    top: 50%;
+    font-size: 2.5em;
+    font-family:'Quicksand', sans-serif;
+    color: white;
+}
+
+.border{
+    padding: 0.5em;
+    background: black;
+}
+
+.trans{
+    background: transparent;
+}
+
+
+
